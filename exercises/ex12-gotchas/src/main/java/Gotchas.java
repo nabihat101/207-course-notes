@@ -64,9 +64,6 @@ public class Gotchas {
    */
   public static boolean sameValue(Integer a, Integer b) {
     // TODO: compare the VALUES, not the references.
-    int x = a;
-    int y = b;
 
-    return x ==y;
   }
 }

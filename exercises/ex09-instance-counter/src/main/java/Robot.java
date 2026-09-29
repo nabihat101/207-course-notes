@@ -29,9 +29,7 @@ public class Robot {
   public Robot(String name) {
     // TODO: set this.name; set this.id to the current value of count (so the
     //       first Robot gets id 0); then increase count by 1.
-    this.id = Robot.count;
-    this.name = name;
-    Robot.count ++;
+
   }
 
   /**

@@ -61,17 +61,7 @@ public class Point {
     // TODO: check that o is a Point (use `instanceof`), cast it, and compare
     //       the x and y fields.
 
-    if (!(o instanceof Point)) {
-      return false;
-    }
 
-    Point p = (Point) o;
-
-    if (p.x == this.x && p.y == this.y) {
-      return true;
-    }
-
-    return false;
 
   }
 

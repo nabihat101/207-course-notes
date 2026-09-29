@@ -72,11 +72,6 @@ public class MyHashing {
    */
   public static int hash(String value) {
     // TODO: String.toCharArray() may help.
-    int sum = 0;
-    char[] chars = value.toCharArray();
-    for(int i = 0; i < chars.length; i++) {
-      sum += chars[i];
-    }
-    return sum;
+
   }
 }
