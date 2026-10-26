@@ -26,7 +26,7 @@ public class CounterPanel extends JPanel {
   private final JButton button = new JButton("Click me");
   private final JLabel label = new JLabel("Count: 0");
 
-  /** Builds the panel and wires up the button. */
+  /** Builds the panel and wires up the button.uh */
   public CounterPanel() {
     add(label);
     add(button);
